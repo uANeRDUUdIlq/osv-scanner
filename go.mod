@@ -40,3 +40,6 @@ require (
 //     real tag once upstream stabilizes that dependency.
 //   - TODO: once golang.org/x/vuln v1.1.0 is released, bump it here;
 //     it adds improved call-graph analysis that should reduce false positives.
+//   - NOTE (personal): gopkg.in/yaml.v3 v3.0.1 has a known low-severity
+//     CVE-2022-28948; keeping it pinned here to track when upstream bumps it.
+//     See: https://github.com/advisories/GHSA-hp87-p4gw-j4gq
