@@ -32,3 +32,9 @@ require (
 
 // Personal fork - tracking upstream google/osv-scanner for local experimentation.
 // To sync with upstream: git fetch upstream && git merge upstream/main
+//
+// Notes:
+//   - golang.org/x/* deps are pinned here; upstream may bump these periodically.
+//     Check for updates with: go list -u -m all
+//   - google/osv-scalibr is a zero-timestamp pseudo-version; replace with a
+//     real tag once upstream stabilizes that dependency.
