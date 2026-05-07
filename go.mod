@@ -38,3 +38,5 @@ require (
 //     Check for updates with: go list -u -m all
 //   - google/osv-scalibr is a zero-timestamp pseudo-version; replace with a
 //     real tag once upstream stabilizes that dependency.
+//   - TODO: once golang.org/x/vuln v1.1.0 is released, bump it here;
+//     it adds improved call-graph analysis that should reduce false positives.
