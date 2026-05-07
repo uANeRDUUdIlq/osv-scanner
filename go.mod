@@ -29,3 +29,6 @@ require (
 	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 )
+
+// Personal fork - tracking upstream google/osv-scanner for local experimentation.
+// To sync with upstream: git fetch upstream && git merge upstream/main
