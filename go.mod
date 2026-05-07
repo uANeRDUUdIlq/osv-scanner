@@ -43,3 +43,6 @@ require (
 //   - NOTE (personal): gopkg.in/yaml.v3 v3.0.1 has a known low-severity
 //     CVE-2022-28948; keeping it pinned here to track when upstream bumps it.
 //     See: https://github.com/advisories/GHSA-hp87-p4gw-j4gq
+//   - NOTE (personal): golang.org/x/net v0.20.0 also has a known vulnerability
+//     (CVE-2023-44487, HTTP/2 rapid reset attack). Pinned to track upstream;
+//     bump to v0.23.0+ when upstream allows it.
