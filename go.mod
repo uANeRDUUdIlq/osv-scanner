@@ -24,7 +24,7 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20231213231151-1d8dd44e695e // indirect
 	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/net v0.20.0 // indirect
+	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/sync v0.6.0 // indirect
 	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
@@ -43,6 +43,6 @@ require (
 //   - NOTE (personal): gopkg.in/yaml.v3 v3.0.1 has a known low-severity
 //     CVE-2022-28948; keeping it pinned here to track when upstream bumps it.
 //     See: https://github.com/advisories/GHSA-hp87-p4gw-j4gq
-//   - NOTE (personal): golang.org/x/net v0.20.0 also has a known vulnerability
-//     (CVE-2023-44487, HTTP/2 rapid reset attack). Pinned to track upstream;
-//     bump to v0.23.0+ when upstream allows it.
+//   - NOTE (personal): bumped golang.org/x/net to v0.23.0 to address
+//     CVE-2023-44487 (HTTP/2 rapid reset attack). Upstream was on v0.20.0;
+//     v0.23.0 contains the fix and appears to be a safe drop-in upgrade.
